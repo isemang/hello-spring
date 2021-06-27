@@ -11,7 +11,7 @@ public class HelloController {
 
     @GetMapping("hello")
     public String hello(Model model){
-        model.addAttribute("data", "spring!!");
+        model.addAttribute("data", "안뇽!!");
         return "hello"; //hello.html로 가라 라는 뜻
     }
 
