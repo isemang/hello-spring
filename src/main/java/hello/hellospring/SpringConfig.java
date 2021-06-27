@@ -18,4 +18,5 @@ public class SpringConfig {
     public MemberRepository memberRepository() {
         return new MemoryMemberRepository();
     }
+    
 }
